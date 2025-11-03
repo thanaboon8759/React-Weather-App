@@ -183,13 +183,13 @@ export default function Weather() {
                     className={`lang-btn ${language === 'en' ? 'active' : ''}`}
                     onClick={() => changeLanguage('en')}
                 >
-                    🇬🇧 EN
+                     EN
                 </button>
                 <button 
                     className={`lang-btn ${language === 'th' ? 'active' : ''}`}
                     onClick={() => changeLanguage('th')}
                 >
-                    🇹🇭 TH
+                     TH
                 </button>
             </div>
         </div>

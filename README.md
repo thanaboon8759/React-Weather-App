@@ -4,16 +4,16 @@ A modern, responsive weather application built with React that provides real-tim
 
 ## Features
 
-- 🌤️ Real-time weather data from OpenWeatherMap API
-- 🌍 Search weather by city name
-- 📍 Get weather for current location using geolocation
-- 🌐 Multi-language support (English & Thai)
-- 💨 Detailed weather information (temperature, humidity, wind speed, pressure, visibility)
-- 🌅 Sunrise and sunset times
-- ⚡ Loading skeleton for better UX
-- 💾 Recent searches saved locally
-- 🎨 Modern Sky & Ocean theme design
-- 📱 Responsive layout
+- Real-time weather data from OpenWeatherMap API
+- Search weather by city name
+- Get weather for current location using geolocation
+- Multi-language support (English & Thai)
+- Detailed weather information (temperature, humidity, wind speed, pressure, visibility)
+- Sunrise and sunset times
+- Loading skeleton for better UX
+- Recent searches saved locally
+- Modern Sky & Ocean theme design
+- Responsive layout
 
 ## Installation
 

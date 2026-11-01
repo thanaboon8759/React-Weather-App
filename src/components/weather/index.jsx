@@ -5,6 +5,8 @@ import EmptyState from "../emptystate/index.jsx";
 import Tooltip from "../tooltip/index.jsx";
 import { translations, popularCities } from "../../translations.js";
 
+const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
+
 export default function Weather() {
     const [search, setSearch] = useState("");
     const [loading, setLoading] = useState(false);
@@ -57,7 +59,7 @@ export default function Weather() {
             setError(null);
             setCurrentLocation(null); // Clear current location badge when searching manually
             const response = await fetch(
-                `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=1125fbaa01a0d96c7be3fe916e881236&units=metric`
+                `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}&units=metric`
             );
             
             if (!response.ok) {
@@ -86,7 +88,7 @@ export default function Weather() {
             setLoading(true);
             setError(null);
             const response = await fetch(
-                `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=1125fbaa01a0d96c7be3fe916e881236&units=metric`
+                `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
             );
             
             if (!response.ok) {

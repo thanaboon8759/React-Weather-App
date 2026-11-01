@@ -21,6 +21,12 @@ A modern, responsive weather application built with React that provides real-tim
 npm install
 ```
 
+Copy `.env.example` to `.env` and add your OpenWeatherMap API key:
+
+```bash
+REACT_APP_OPENWEATHER_API_KEY=your_api_key_here
+```
+
 ## Usage
 
 ```bash
